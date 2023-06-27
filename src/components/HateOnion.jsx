@@ -3,7 +3,7 @@ import './HateOnion.css'
 const HateOnion = () => {
     const tieneCebolla = (event) => {
         let nuevoTexto = event.target.value.toLowerCase();
-        nuevoTexto.includes('cebolla') ? alert('no me gusta la cebolla') : console.log('no contiene cebolla');
+        nuevoTexto.includes('cebolla') ? alert('no me gusta la cebolla') : undefined;
     }
     return (
         <>
